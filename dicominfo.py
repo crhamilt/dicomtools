@@ -3,7 +3,7 @@
 # display dicom header
 
 import argparse
-import dicom
+import pydicom
 import isdicom
 import glob
 
