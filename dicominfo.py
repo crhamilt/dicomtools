@@ -17,7 +17,7 @@ print('args.dicomimages = ',args.dicomimages)
 
 for img in glob.glob(args.dicomimages):
     print('checking ',img)
-    ds = dicom.read_file(img, force=True)
+    ds = pydicom.read_file(img, force=True)
     print(ds)
 
 # just the element names
